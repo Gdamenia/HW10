@@ -1,0 +1,112 @@
+@media (width > 767px){
+  .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12{
+    width: 110px;
+    height: 110px;
+  }
+
+  .h1mob{
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .headpmob{
+    width: 457px;
+  }
+
+  .buttonsmob{
+    display: flex;
+    flex-direction: row;
+  }
+  .b1mob{
+    margin-right:20px ;
+  }
+
+  .fourPics{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 25px;
+    justify-content: center;
+   
+  }
+
+  .four1{
+    margin-left: 0;
+}
+
+    .four2{
+        margin-right: 0;
+    }
+
+    .blacktext{
+        line-height: 44px;
+        font-size: 40px;
+    }
+
+    .bruv{
+        width: 573px;
+    }
+
+    .footerText, .together{
+        line-height: 44px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .lastText{
+        width: 573px;
+    }
+}
+
+
+@media (width > 1400px){
+
+    .textsmob{
+        display: none;
+    }
+
+    .photos{
+        grid-template-columns: auto auto auto auto auto auto auto;
+    }
+
+    .texts{
+        display: flex;
+        
+    }
+
+    .ball{
+        margin-top: 60px;
+    }
+
+   .four1, .four2{
+    width: 200px;
+    height: 200px;
+   }
+
+   footer{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   }
+
+   .footerText, .together{
+    margin-right: 40px;
+   }
+   h2{
+    width: 350px;
+   }
+
+   .together{
+    margin-right: 160px;
+   }
+
+   .lastText{
+    width: 350px;
+   }
+
+   .footerButton{
+     animation: none;
+     margin-left: 200px;
+   }
+}
